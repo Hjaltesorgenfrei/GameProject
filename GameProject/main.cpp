@@ -4,6 +4,11 @@
 #include <thread>
 #include "stdio.h"
 #include "windows.h"
+#include "GameStruct.h"
+
+GameHandler game;
+GAME.WIDTH = 640;
+GAME.HEIGHT = 480;
 
 //window infomation
 int width = 640;
